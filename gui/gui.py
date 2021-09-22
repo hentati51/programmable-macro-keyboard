@@ -110,8 +110,8 @@ def buclick(i):
 def compile_upload():
     import os
     import subprocess
-    path1=os.path.join(os.path.expanduser('~'),'Documents','Arduino','dfu-programmer-win-0.7.2'
-    os.chdir(path)
+    path1=os.path.join(os.path.expanduser('~'),'Documents','Arduino','dfu-programmer-win-0.7.2')
+    os.chdir(path1)
     # subprocess.call('cd C:\Users\henta\Downloads\Compressed\dfu-programmer-win-0.7.2',shell=True)
     T1.insert(tk.END,"put the keyboard in dfu mode and Press Enter to continue...")
     input()
